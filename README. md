@@ -1,0 +1,61 @@
+# 🐒 Monkeypox Detection Web App
+
+A deep learning-powered web application that classifies skin lesions as either **Monkeypox** or **non-Monkeypox** conditions using a **Convolutional Neural Network (CNN)**. The app provides users with an easy-to-use interface to upload images and get real-time detection results.
+
+## 📅 Project Duration
+**3 months**
+
+## 🔧 Tech Stack
+
+- **Machine Learning:** TensorFlow, Keras
+- **Web Framework:** Flask
+- **Front-End:** HTML, CSS
+- **Languages:** Python, HTML
+
+## ✅ Features
+
+- 🧠 **CNN-based Image Classifier** trained on curated monkeypox dataset
+- 🌐 **Flask Web App** for fast, real-time detection
+- 📸 **Image Upload Interface** with immediate predictions
+- 📊 **Model Evaluation** using accuracy score, confusion matrix, and ROC curve
+- 🔐 **User Privacy**: Images are not stored or shared
+- 
+## ❓ Problem Statement
+
+Monkeypox diagnosis is often delayed due to the limited availability of diagnostic labs and testing kits, especially in underserved areas. Traditional visual diagnosis is also complicated by symptom similarity to other skin conditions. This app aims to provide an **accessible, real-time screening tool** using deep learning models to help users get a preliminary assessment with minimal resources.
+
+## 🎯 Goals & Objectives
+
+- Build and train a **CNN model** to detect monkeypox from images
+- Deploy a responsive **web interface** for interactive predictions
+- Handle **data securely** without storing user images
+
+## 🧱 Project Structure
+
+monkeypox-detector/
+├── app.py # Flask server logic
+├── static/
+│ └── style.css # Front-end styling
+├── templates/
+│ └── index.html # HTML UI template
+├── model/
+│ └── cnn_model.h5 # Trained CNN model
+├── data/
+│ └── monkeypox_dataset/ # Dataset used for training (not included)
+└── README.md # Project documentation
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- TensorFlow / Keras
+- Flask
+- OpenCV / Pillow (for image processing)
+
+### Installation
+
+
+
+
